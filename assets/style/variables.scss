@@ -1,0 +1,69 @@
+
+
+//Primary 
+$primaryYellow: #FFC737;
+$primaryBlue: #3772FF;
+$primaryPink: #9757D7;
+$primaryOrange: #FF6838;
+$primaryGreen: #58BD7D;
+
+//Secondary
+$secondaryYellow: #FFD166;
+$secondaryBlue: #4BC9F0;
+$secondary200: #E4D7CF;
+$secondary100 : #CDB4DB;
+
+// Gray
+$gray800: #141416;
+$gray700: #23262F;
+$gray600: #353945;
+$gray500: #777E91;
+$gray400: #B1B5C4;
+$gray300: #E6E8EC;
+$gray200: #F4F5F6;
+$gray100: #FCFCFD;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $gray800;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+h3 {
+  font-size: 40px;
+ line-height: 48px;
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+p {
+  font-family: 'Roboto';
+font-style: normal;
+}
