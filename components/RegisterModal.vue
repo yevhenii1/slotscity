@@ -280,30 +280,53 @@
       }
 
       .swiper-button-next {
+        position: absolute;
         top: inherit;
         bottom: 0;
         height: 20px;
         width: 20px;
         right: 90px;
         z-index: 100;
+        cursor: pointer;
+
         &:after {
+          content: '';
           font-size: 0;
           background-image: url('~/assets/images/arrow-right.png');
           width: 10px;
           height: 6px;
+          position: absolute;
+          top: 8px;
+        }
+
+        &.swiper-button-disabled {
+          opacity: 0.7;
+          cursor: default;
         }
       }
       .swiper-button-prev {
+        position: absolute;
         top: inherit;
         bottom: 0;
         height: 20px;
+        width: 20px;
         left: 90px;
         z-index: 100;
+        cursor: pointer;
+
         &:after {
+          content: '';
           font-size: 0;
           background-image: url('~/assets/images/arrow-left.png');
           width: 10px;
           height: 6px;
+          position: absolute;
+          top: 8px;
+        }
+
+        &.swiper-button-disabled {
+          opacity: 0.7;
+          cursor: default;
         }
       }
 
@@ -611,27 +634,6 @@
     justify-content: center;
   }
 }
-
-// .carousel-wrapper {
-//   padding: 40px;
-//   height: 300px;
-//   width: 100%;
-//   .swiper-slide {
-//     text-align: center;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-//   .img-warpper img {
-//     margin: auto;
-//     width: 200px;
-//     height: 100px;
-//     background-image: linear-gradient(gray 100%, transparent 0);
-//   }
-//   ::v-deep.swiper-pagination-bullet-active {
-//     background-color: black;
-//   }
-// }
 </style>
 
 <script>

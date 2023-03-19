@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/tailwindcss', 'nuxt-icon'],
+  buildModules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon',
+    '@nuxtjs/google-fonts',
+  ],
   modules: ['nuxt-font-loader'],
   // buildModules: ['@nuxtjs/google-fonts'],
 
